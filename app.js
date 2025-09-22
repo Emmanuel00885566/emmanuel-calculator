@@ -3,7 +3,7 @@ import { fileURLToPath } from 'url';
 import chalk from 'chalk';
 import readline from 'readline';
 import {add, subtract, multiply, divide} from './my_module/calculator.js';
-import {capitalizeName, fullName} from './my_module/nameFormatter.js';
+import {capitalizeName, fullName} from './my_module/textUtils.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
